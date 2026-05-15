@@ -335,13 +335,13 @@ export default function App() {
             <p className="mb-2 text-xs font-black uppercase tracking-[0.35em] text-rose-500">
               Anniversary Desk
             </p>
-            <h1
-               className="text-4xl font-black"
-              style={{ color: "#ff4f8b" }}
-                >
-              Welcome
-            </h1>
-          </div>
+           <h1
+                 className="select-none text-4xl font-black"
+                 style={{ color: "#ff4f8b" }}
+              >
+                 Welcome
+          </h1>
+           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
