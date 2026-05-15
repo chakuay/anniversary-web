@@ -416,7 +416,7 @@ export default function App() {
             className="text-4xl font-black drop-shadow-sm md:text-6xl"
              style={{ color: "#ff4f8b" }}
             >
-             Our Cozy Love Desk
+            Love Desk
           </h1>
           
         </motion.div>
