@@ -333,10 +333,9 @@ export default function App() {
         >
           <div className="mb-6 text-center">
             <p className="mb-2 text-xs font-black uppercase tracking-[0.35em] text-rose-500">
-              Secret Anniversary Desk
+              Anniversary Desk
             </p>
             <h1 className="text-4xl font-black text-stone-800">Welcome</h1>
-            <p className="mt-2 text-sm font-bold text-stone-500">ใส่ชื่อกับรหัสก่อนเข้าเว็บของเรา</p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
