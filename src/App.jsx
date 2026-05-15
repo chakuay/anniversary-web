@@ -335,7 +335,9 @@ export default function App() {
             <p className="mb-2 text-xs font-black uppercase tracking-[0.35em] text-rose-500">
               Anniversary Desk
             </p>
-            <h1 className="text-4xl font-black text-stone-800">Welcome</h1>
+            <h1 className="bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 bg-clip-text text-4xl font-black text-transparent">
+              Welcome
+            </h1>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
@@ -345,7 +347,7 @@ export default function App() {
                 value={loginName}
                 onChange={(event) => setLoginName(event.target.value)}
                 className="w-full rounded-2xl border border-rose-200 bg-white px-4 py-3 font-bold outline-none focus:ring-2 focus:ring-rose-300"
-                placeholder="เช่น me หรือ love"
+                placeholder="Username"
               />
             </div>
 
